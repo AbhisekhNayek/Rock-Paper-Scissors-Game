@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #1bbeff, #1bff98);
+}
+
+.container {
+    width: 60%;
+    min-width: 500px;
+    background-color: #ffffff;
+    padding: 40px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.15);
+}
+
+header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #f3ffff;
+    text-align: center;
+}
+
+.scores {
+    margin-bottom: 50px;
+    text-align: right;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.weapons {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weapons button {
+    background-color: #ffd51b;
+    color: #000000;
+    border: none;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.weapons button:hover {
+    transform: scale(1.1);
+}
+
+.details {
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+#result {
+    width: 180px;
+    padding: 10px 0;
+    margin: 30px auto;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#user_choice,
+#computer_choice {
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+span {
+    font-weight: 600;
+}
+
